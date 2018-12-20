@@ -142,7 +142,7 @@ inquirer.prompt(
         inquirer.prompt(
             {
                 type: "input",
-                message: "What band would you like to for a concert for?",
+                message: "What band would you like to find a concert for?",
                 name: "band"
             }
         ).then(function(response){
